@@ -13,7 +13,7 @@ jobs:
       - name: python command
         run: |
           import platform
-          print(platform.process()
+          print(platform.process())
         shell: python
   runs-windows-commands-job:
     runs-on: windows-latest
