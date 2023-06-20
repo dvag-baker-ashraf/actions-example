@@ -1,12 +1,12 @@
-name: first workflow
+name: workflowname First Workflow
 on: [push]
 jobs:
-  runs-shell-command:
+  runs-shell-command-jobname:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
+      - name: step1 echo a string
         run: echo "Hello"
-      - name: run-multiple
+      - name: step2 run-multiple
         run: |
           mvn -v
           java --version
