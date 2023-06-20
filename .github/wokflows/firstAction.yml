@@ -1,0 +1,5 @@
+name: firstActions
+on: [push]
+jobs:
+  runs-shell-command:
+    runs-on: u
