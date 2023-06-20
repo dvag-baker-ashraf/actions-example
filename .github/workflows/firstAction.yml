@@ -1,4 +1,4 @@
-name: firstActions
+name: first workflow
 on: [push]
 jobs:
   runs-shell-command:
