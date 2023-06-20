@@ -1,5 +1,5 @@
 name: First Workflow
-on: [push]
+on: [clone]
 jobs:
   runs-shell-command-job:
     runs-on: ubuntu-latest
